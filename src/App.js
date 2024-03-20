@@ -136,10 +136,10 @@ function CrudData() {
 
     setSelected([updatedData1]);
     localStorage.setItem("data", JSON.stringify(updatedData1))
-    
+
   }
 
-
+console.log("person");
   const handelCheckbox = (e) => {
 
     if (e.target.name === "selectall") {
