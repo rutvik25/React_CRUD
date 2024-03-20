@@ -136,6 +136,7 @@ function CrudData() {
 
     setSelected([updatedData1]);
     localStorage.setItem("data", JSON.stringify(updatedData1))
+    
   }
 
 
